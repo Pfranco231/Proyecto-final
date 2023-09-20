@@ -58,6 +58,7 @@ footer {
 
 body {
   background-color: #222222 !important;
+  color: white !important;
 }
 
 .Whatsapp {
@@ -85,6 +86,7 @@ body {
 .introduccion {
   height: 500px;
   background-image: url(../imgs/banner-main.jpg);
+  background-repeat: repeat;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -97,6 +99,35 @@ body {
   color: white;
   padding: 10px;
   border-radius: 10px;
+}
+
+.popular {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular img {
+  width: auto;
+  height: 50px;
+  animation-name: estrella;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+@keyframes estrella {
+  0% {
+    transform: rotate(-180deg);
+  }
+  50% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
