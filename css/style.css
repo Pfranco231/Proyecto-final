@@ -4,6 +4,39 @@
   box-sizing: content-box;
 }
 
+@media (max-width: 1024px) {
+  footer {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid gray;
+  }
+  footer img {
+    width: auto;
+    height: 100px;
+  }
+  footer ul {
+    display: block !important;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer ul li {
+    list-style-type: none;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+  }
+  footer ul li a:hover {
+    color: orange;
+    padding: 10px;
+    transition: 1s;
+  }
+}
 a {
   text-decoration: none;
   color: white;
@@ -54,6 +87,33 @@ main {
 footer {
   background-color: #222222;
   color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid gray;
+}
+footer img {
+  width: auto;
+  height: 100px;
+}
+footer ul {
+  display: flex;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 10px;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+footer ul li a:hover {
+  color: orange;
+  padding: 10px;
+  transition: 1s;
 }
 
 body {
@@ -128,6 +188,51 @@ body {
   100% {
     transform: rotate(180deg);
   }
+}
+.central {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.central img {
+  width: auto;
+  height: 50px;
+}
+
+.bienvenida {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+  width: 90% !important;
+  margin-top: 40px;
+  font-size: large;
+  margin-bottom: 30px;
+}
+.bienvenida img {
+  width: auto;
+  height: 25rem;
+}
+.bienvenida div p {
+  padding: 20px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 60%;
+  width: 90%;
+  margin-left: 4.5%;
+  position: absolute;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
