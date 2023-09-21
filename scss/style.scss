@@ -151,6 +151,20 @@ body{
     color: white;
 }
 
+.banner-lugares{
+    height: 409px;
+    background-image: url(../imgs/OIG..jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 .parrafos-historia{
     text-align: center;
 }
