@@ -149,7 +149,13 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    h1{
+        padding: 10px;
+        background-color: #222222;
+        border-radius: 10px;
+    }
 }
+
 
 .banner-lugares{
     height: 409px;
@@ -163,6 +169,30 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    h1{
+        padding: 10px;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+}
+
+.banner-networks{
+    height: 409px;
+    background-image: url(../imgs/redes-sociales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1{
+        padding: 10px;
+        background-color: #222222;
+        border-radius: 10px;
+    }
 }
 
 .accordion{
