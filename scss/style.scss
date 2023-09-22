@@ -195,6 +195,25 @@ body{
     }
 }
 
+.banner-drinks{
+    height: 409px;
+    background-image: url(../imgs/redes-sociales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1{
+        padding: 10px;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+}
+
 .accordion{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -213,9 +232,9 @@ body{
     text-align: center;
 }
 .introduccion{
-    height: 500px;
+    height: 40rem;
     background-image: url(../imgs/banner-main.jpg);
-    background-repeat: repeat;
+    background-repeat: round;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
