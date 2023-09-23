@@ -1,0 +1,94 @@
+.banner-drinks{
+    height: 409px;
+    background-image: url(../imgs/redes-sociales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1{
+        padding: 10px;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+}
+
+.banner-networks{
+    height: 409px;
+    background-image: url(../imgs/redes-sociales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1{
+        padding: 10px;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+}
+
+.banner-lugares{
+    height: 409px;
+    background-image: url(../../imgs/OIG..jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1{
+        padding: 10px;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+}
+
+.introduccion{
+    height: 40rem;
+    background-image: url(../../imgs/banner-main.jpg);
+    background-repeat: round;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    ul{
+        background-color: #222222;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+
+.banner-main{
+    height: 300px;
+    background-image: url(../../imgs/historia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1{
+        padding: 10px;
+        background-color: #222222;
+        border-radius: 10px;
+    }
+}

@@ -1,9 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
+@keyframes estrella {
+  0% {
+    transform: rotate(-180deg);
+  }
+  50% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
 }
-
 @media (max-width: 1024px) {
   footer {
     background-color: #222222;
@@ -37,9 +42,75 @@
     transition: 1s;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.accordion {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.accordion .accordion-button {
+  background-color: #222222 !important;
+  color: white !important;
+}
+.accordion .accordion-collapse {
+  background-color: #222222;
+  color: white;
+}
+
+@keyframes estrella {
+  0% {
+    transform: rotate(-180deg);
+  }
+  50% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+body {
+  background-color: #222222 !important;
+  color: white !important;
+}
+
+main {
+  background-color: #222222;
+}
+
 a {
   text-decoration: none;
   color: white;
+}
+
+.card {
+  background-color: #222222 !important;
+  color: white !important;
+  margin: 10px;
+}
+
+.parrafos-historia {
+  text-align: center;
+}
+
+.popular {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular img {
+  width: auto;
+  height: 50px;
+  animation-name: estrella;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 1s;
 }
 
 header {
@@ -74,16 +145,6 @@ header img {
   height: 80px;
 }
 
-.card {
-  background-color: #222222 !important;
-  color: white !important;
-  margin: 10px;
-}
-
-main {
-  background-color: #222222;
-}
-
 footer {
   background-color: #222222;
   color: white;
@@ -116,11 +177,6 @@ footer ul li a:hover {
   transition: 1s;
 }
 
-body {
-  background-color: #222222 !important;
-  color: white !important;
-}
-
 .Whatsapp {
   width: 62px;
   position: fixed;
@@ -129,28 +185,9 @@ body {
   z-index: 1;
 }
 
-.banner-main {
-  height: 300px;
-  background-image: url(../imgs/historia.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.banner-main h1 {
-  padding: 10px;
-  background-color: #222222;
-  border-radius: 10px;
-}
-
-.banner-lugares {
+.banner-drinks {
   height: 409px;
-  background-image: url(../imgs/OIG..jfif);
+  background-image: url(../imgs/redes-sociales.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -161,7 +198,7 @@ body {
   align-items: center;
   color: white;
 }
-.banner-lugares h1 {
+.banner-drinks h1 {
   padding: 10px;
   background-color: #222222;
   border-radius: 10px;
@@ -186,9 +223,9 @@ body {
   border-radius: 10px;
 }
 
-.banner-drinks {
+.banner-lugares {
   height: 409px;
-  background-image: url(../imgs/redes-sociales.jpg);
+  background-image: url(../../imgs/OIG..jfif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -199,32 +236,15 @@ body {
   align-items: center;
   color: white;
 }
-.banner-drinks h1 {
+.banner-lugares h1 {
   padding: 10px;
   background-color: #222222;
   border-radius: 10px;
 }
 
-.accordion {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.accordion .accordion-button {
-  background-color: #222222 !important;
-  color: white !important;
-}
-.accordion .accordion-collapse {
-  background-color: #222222;
-  color: white;
-}
-
-.parrafos-historia {
-  text-align: center;
-}
-
 .introduccion {
   height: 40rem;
-  background-image: url(../imgs/banner-main.jpg);
+  background-image: url(../../imgs/banner-main.jpg);
   background-repeat: round;
   display: flex;
   flex-wrap: wrap;
@@ -240,34 +260,25 @@ body {
   border-radius: 10px;
 }
 
-.popular {
-  margin-top: 10px;
-  margin-bottom: 20px;
+.banner-main {
+  height: 300px;
+  background-image: url(../../imgs/historia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  color: white;
 }
-.popular img {
-  width: auto;
-  height: 50px;
-  animation-name: estrella;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 3s;
-  animation-delay: 1s;
+.banner-main h1 {
+  padding: 10px;
+  background-color: #222222;
+  border-radius: 10px;
 }
 
-@keyframes estrella {
-  0% {
-    transform: rotate(-180deg);
-  }
-  50% {
-    transform: rotate(50deg);
-  }
-  100% {
-    transform: rotate(180deg);
-  }
-}
 .central {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -280,28 +291,11 @@ body {
   height: 50px;
 }
 
-.bienvenida {
-  background-color: #1a1a1a;
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  border-radius: 10px;
-  width: 90% !important;
-  margin-top: 40px;
-  font-size: large;
-  margin-bottom: 30px;
-}
-.bienvenida img {
-  width: auto;
-  height: 25rem;
-}
-.bienvenida div p {
-  padding: 20px;
-}
-
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
+  margin-bottom: -6%;
   height: 0;
 }
 .map-responsive iframe {
@@ -341,6 +335,24 @@ body {
 .tienda .lista-burgers img {
   height: 100px;
   border-radius: 10PX;
+}
+
+.bienvenida {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+  width: 90% !important;
+  margin-top: 40px;
+  font-size: large;
+  margin-bottom: 30px;
+}
+.bienvenida img {
+  width: auto;
+  height: 25rem;
+}
+.bienvenida div p {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

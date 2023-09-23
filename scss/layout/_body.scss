@@ -1,0 +1,45 @@
+@import '../base/_animations.scss';
+
+body{
+    background-color: #222222 !important;
+    color: white !important;
+}
+
+main{
+    background-color: #222222;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.card{
+    background-color: #222222 !important;
+    color: white !important;
+    margin: 10px;
+}
+
+
+.parrafos-historia{
+    text-align: center;
+}
+
+.popular{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: auto;
+        height: 50px;
+        animation-name: estrella;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 1s;
+    }
+}

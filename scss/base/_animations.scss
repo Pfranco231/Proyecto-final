@@ -1,0 +1,14 @@
+@keyframes estrella{
+    0%{
+        transform: rotate(-180deg);
+    }
+
+    50%{
+       transform: rotate(50deg);
+    }
+
+    100%{
+        transform: rotate(180deg);
+    }
+
+}

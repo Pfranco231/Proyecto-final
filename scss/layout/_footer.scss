@@ -1,0 +1,31 @@
+footer{
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid gray;
+    img{
+        width: auto;
+        height: 100px;
+    }
+    ul{
+        display: flex;
+        background-color: #1a1a1a;
+        padding: 10px;
+        border-radius: 10px;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: white;
+                margin: 5px;
+                &:hover{
+                    color: orange;
+                    padding: 10px;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+}
