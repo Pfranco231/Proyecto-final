@@ -1,4 +1,73 @@
 @media (max-width: 1024px){
+    .banner-contact{
+        height: 409px;
+        background-image: url(../../imgs/contacto-resposive.jpg) !important;
+        margin-bottom: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h1{
+            padding: 10px;
+            background-color: #222222;
+            border-radius: 10px;
+        }
+    }
+
+    .banner-drinks{
+        height: 409px;
+        background-image: url(../../imgs/bebida-responsive.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h1{
+            padding: 10px;
+            background-color: #222222;
+            border-radius: 10px;
+        }
+    }
+    .tienda{
+        .lista-burgers{
+            display: block !important;
+            padding: 10px;
+            border-top: 1px solid #1a1a1a;
+            margin-right: 90px;
+            margin-left: 90px;
+            align-items: center;
+            margin-bottom: 20px;
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: #F75555;
+                padding: 5px;
+                border-radius: 10px;
+                &:hover{
+                    color: black;
+                    background-color: greenyellow;
+                    padding: 10px;
+                    transition: 1s;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+            }
+            img{
+                height: 190px;
+                border-radius: 10px;
+
+            }
+        }
+      }
+
     footer{
         background-color: #222222;
         color: white;
@@ -30,4 +99,46 @@
             }
         }
     }
+
+    .banner-main{
+        height: 409px;
+        background-image: url(../../imgs/historia-2.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h1{
+            padding: 10px;
+            background-color: #222222;
+            border-radius: 10px;
+        }
+    }
   }
+
+  @media (max-width: 768px){
+    .banner-networks{
+        height: 409px;
+        width: auto;
+        background-image: url(../../imgs/redes-sociales-2.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h1{
+            padding: 10px;
+            background-color: #222222;
+            border-radius: 10px;
+        }
+    }
+  }
+
