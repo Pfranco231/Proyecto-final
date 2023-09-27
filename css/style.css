@@ -571,7 +571,8 @@ footer ul li a:hover {
 }
 .bienvenida img {
   width: auto;
-  height: 25rem;
+  height: 21rem;
+  margin-left: 3rem;
 }
 .bienvenida div p {
   padding: 20px;
