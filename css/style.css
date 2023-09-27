@@ -10,9 +10,33 @@
   }
 }
 @media (max-width: 1024px) {
+  .item-uno {
+    background-color: #01BFA5;
+    /*grid-column*/
+    grid-column: 1/3;
+    /*grid-row*/
+    grid-row: 1/3;
+  }
+  .item-uno:hover {
+    scale: 1.1;
+    transition: 2s;
+  }
+  .item-uno h2 {
+    font-size: 2.5rem;
+    padding-left: 19px;
+  }
+  .item-uno p {
+    font-size: 1.5rem;
+    padding: 19px;
+  }
+  .item-uno img {
+    width: auto;
+    height: 200px !important;
+    margin-top: 25%;
+  }
   .banner-contact {
     height: 409px;
-    background-image: url(../../imgs/contacto-resposive.jpg) !important;
+    background-image: url(../imgs/contacto-resposive.jpg) !important;
     margin-bottom: 50px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +55,7 @@
   }
   .banner-drinks {
     height: 409px;
-    background-image: url(../../imgs/bebida-responsive.jpg) !important;
+    background-image: url(../imgs/bebida-responsive.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -107,7 +131,7 @@
   }
   .banner-main {
     height: 409px;
-    background-image: url(../../imgs/historia-2.jpg) !important;
+    background-image: url(../imgs/historia-2.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -125,10 +149,85 @@
   }
 }
 @media (max-width: 768px) {
+  .grid-container {
+    align-items: center !important;
+    /*grid*/
+    display: block !important;
+    margin-left: 0% !important;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .item-uno {
+    background-color: #01BFA5;
+    /*grid-column*/
+    grid-column: 1/3;
+    /*grid-row*/
+    grid-row: 1/3;
+  }
+  .item-uno:hover {
+    scale: 1.1;
+    transition: 2s;
+  }
+  .item-uno h2 {
+    font-size: 2.5rem;
+    padding-left: 19px;
+  }
+  .item-uno p {
+    font-size: 1.5rem;
+    padding: 19px;
+  }
+  .item-uno img {
+    width: auto;
+    height: 200px !important;
+    margin-top: 0% !important;
+  }
+  .item-dos {
+    background-image: url(../../imgs/instragram-background.jpg);
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+  .item-dos:hover {
+    scale: 1.1;
+    transition: 2s;
+  }
+  .item-dos h2 {
+    font-size: 2.5rem;
+    padding: 19px;
+  }
+  .item-dos p {
+    font-size: 1.5rem;
+    padding-left: 19px;
+  }
+  .item-dos img {
+    width: auto;
+    height: 200px !important;
+  }
+  .item-tres {
+    background-image: url(../../imgs/Facebook-background.jpg);
+    grid-column: 1/4;
+    grid-row: 3/3;
+  }
+  .item-tres:hover {
+    scale: 1.1;
+    transition: 2s;
+  }
+  .item-tres h2 {
+    font-size: 2.5rem;
+    padding-left: 19px;
+  }
+  .item-tres p {
+    font-size: 1.5rem;
+    padding-left: 19px;
+  }
+  .item-tres img {
+    width: auto;
+    height: 100px !important;
+  }
   .banner-networks {
     height: 409px;
     width: auto;
-    background-image: url(../../imgs/redes-sociales-2.jpg) !important;
+    background-image: url(../imgs/redes-sociales-2.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -404,7 +503,7 @@ footer ul li a:hover {
 
 .central {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -557,6 +656,96 @@ footer ul li a:hover {
 
 li {
   list-style-type: none;
+}
+
+.grid-container {
+  /*grid*/
+  display: grid;
+  /*grid-template-columns: 150px 150px 150px 150px;*/
+  grid-template-columns: repeat(4, 1fr);
+  /*grid-template-rows: 150px 150px 150px 150px;*/
+  grid-template-rows: repeat(3, 150px);
+  row-gap: 10px;
+  column-gap: 20px;
+  gap: 25px;
+  margin-left: 20%;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grid-item {
+  border-radius: 10px;
+  color: #1A1A1A;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.item-uno {
+  background-color: #01BFA5;
+  /*grid-column*/
+  grid-column: 1/3;
+  /*grid-row*/
+  grid-row: 1/3;
+}
+.item-uno:hover {
+  scale: 1.1;
+  transition: 2s;
+}
+.item-uno h2 {
+  font-size: 2.5rem;
+  padding-left: 19px;
+}
+.item-uno p {
+  font-size: 1.5rem;
+  padding: 19px;
+}
+.item-uno img {
+  width: auto;
+  height: 300px;
+}
+
+.item-dos {
+  background-image: url(../../imgs/instragram-background.jpg);
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.item-dos:hover {
+  scale: 1.1;
+  transition: 2s;
+}
+.item-dos h2 {
+  font-size: 2.5rem;
+  padding: 19px;
+}
+.item-dos p {
+  font-size: 1.5rem;
+  padding-left: 19px;
+}
+.item-dos img {
+  width: auto;
+  height: 300px;
+}
+
+.item-tres {
+  background-image: url(../../imgs/Facebook-background.jpg);
+  grid-column: 1/4;
+  grid-row: 3/3;
+}
+.item-tres:hover {
+  scale: 1.1;
+  transition: 2s;
+}
+.item-tres h2 {
+  font-size: 2.5rem;
+  padding-left: 19px;
+}
+.item-tres p {
+  font-size: 1.5rem;
+  padding-left: 19px;
+}
+.item-tres img {
+  width: auto;
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

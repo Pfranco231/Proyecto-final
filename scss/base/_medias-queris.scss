@@ -1,7 +1,32 @@
 @media (max-width: 1024px){
+    .item-uno{
+        background-color: #01BFA5;
+        /*grid-column*/
+        grid-column: 1/3;
+        /*grid-row*/
+        grid-row: 1/3;
+        &:hover{
+            scale: 1.1;
+            transition: 2s;
+        }
+        h2{
+            font-size: 2.5rem;
+            padding-left: 19px;
+        }
+        p{
+            font-size: 1.5rem;
+            padding: 19px;
+          }
+        img{
+            width: auto;
+            height: 200px !important;
+            margin-top: 25%;
+        }
+    }
+
     .banner-contact{
         height: 409px;
-        background-image: url(../../imgs/contacto-resposive.jpg) !important;
+        background-image: url(../imgs/contacto-resposive.jpg) !important;
         margin-bottom: 50px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -21,7 +46,7 @@
 
     .banner-drinks{
         height: 409px;
-        background-image: url(../../imgs/bebida-responsive.jpg) !important;
+        background-image: url(../imgs/bebida-responsive.jpg) !important;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -102,7 +127,7 @@
 
     .banner-main{
         height: 409px;
-        background-image: url(../../imgs/historia-2.jpg) !important;
+        background-image: url(../imgs/historia-2.jpg) !important;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -121,10 +146,91 @@
   }
 
   @media (max-width: 768px){
+
+    .grid-container{
+        align-items: center !important;
+        /*grid*/
+        display: block !important;
+        margin-left: 0% !important;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .item-uno{
+        background-color: #01BFA5;
+        /*grid-column*/
+        grid-column: 1/3;
+        /*grid-row*/
+        grid-row: 1/3;
+        &:hover{
+            scale: 1.1;
+            transition: 2s;
+        }
+        h2{
+            font-size: 2.5rem;
+            padding-left: 19px;
+        }
+        p{
+            font-size: 1.5rem;
+            padding: 19px;
+          }
+        img{
+            width: auto;
+            height: 200px !important;
+            margin-top: 0% !important; 
+        }
+    }
+    
+    .item-dos{
+        background-image: url(../../imgs/instragram-background.jpg);
+        grid-column: 3/4;
+        grid-row: 1/3;
+        &:hover{
+            scale: 1.1;
+            transition: 2s;
+        }
+        h2{
+            font-size: 2.5rem;
+            padding: 19px;
+         }
+         p{
+            font-size: 1.5rem;
+            padding-left: 19px;
+        }
+        img{
+            width: auto;
+            height: 200px !important;
+        }
+    }
+    
+    .item-tres{
+        background-image: url(../../imgs/Facebook-background.jpg);
+        grid-column: 1/4;
+        grid-row: 3/3;
+        &:hover{
+            scale: 1.1;
+            transition: 2s;
+        }
+        h2{
+            font-size: 2.5rem;
+            padding-left: 19px;
+         }
+        p{
+            font-size: 1.5rem;
+            padding-left: 19px;
+        }
+        img{
+            width: auto;
+            height: 100px !important;
+        }
+    }
+    
+
     .banner-networks{
         height: 409px;
         width: auto;
-        background-image: url(../../imgs/redes-sociales-2.jpg) !important;
+        background-image: url(../imgs/redes-sociales-2.jpg) !important;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
