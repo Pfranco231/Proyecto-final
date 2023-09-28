@@ -204,7 +204,7 @@
     height: 200px !important;
   }
   .item-tres {
-    background-image: url(../imgs/Facebook-background.jpg);
+    background-image: url(../../imgs/Facebook-background.jpg);
     grid-column: 1/4;
     grid-row: 3/3;
   }
@@ -572,7 +572,6 @@ footer ul li a:hover {
 .bienvenida img {
   width: auto;
   height: 21rem;
-  margin-left: 3rem;
 }
 .bienvenida div p {
   padding: 20px;
