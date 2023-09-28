@@ -204,7 +204,7 @@
     height: 200px !important;
   }
   .item-tres {
-    background-image: url(../../imgs/Facebook-background.jpg);
+    background-image: url(../imgs/Facebook-background.jpg);
     grid-column: 1/4;
     grid-row: 3/3;
   }
@@ -389,7 +389,7 @@ footer ul li a:hover {
 
 .banner-drinks {
   height: 409px;
-  background-image: url(../../imgs/bebidas-banner.jpg);
+  background-image: url(../imgs/bebidas-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -483,7 +483,7 @@ footer ul li a:hover {
 
 .banner-contact {
   height: 409px;
-  background-image: url(../../imgs/contacto.webp);
+  background-image: url(../imgs/contacto.webp);
   margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
